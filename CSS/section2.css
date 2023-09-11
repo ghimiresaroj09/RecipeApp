@@ -1,0 +1,91 @@
+/* Default styles for the .info section */
+
+.section2 {
+    padding-top: 100px;
+    /* Adjust the top padding as needed */
+}
+
+
+/* Default styles for the .info section */
+
+.section2 .info {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 100px;
+}
+
+
+/* Adjust styles for the person's image */
+
+.section2 .info .person {
+    height: 300px;
+    width: 350px;
+    /* Wider width for laptop and tablet views */
+    background-image: url(../Images/saroj.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border-radius: 20px;
+    margin-right: 20px;
+    /* Add margin for spacing */
+}
+
+.section2 .info .description {
+    flex: 1;
+    /* Allow the description to take remaining space */
+}
+
+.section2 .info .description p {
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.section2 .info .description h4,
+.section2 .info .description h2 {
+    font-size: 30px;
+    line-height: 40px;
+    list-style: none;
+    text-decoration: underline;
+}
+
+.section2 .info .description .button1 button {
+    color: white;
+    font-size: larger;
+    display: inline-block;
+    height: 45px;
+    width: 125px;
+    background-color: #007BFF;
+    border-radius: 20px;
+}
+
+
+/* Responsive adjustments for screens between 768px and 1024px (tablet and laptop) */
+
+@media (max-width: 1024px) {
+    .section2 .info {
+        flex-direction: row;
+        /* Keep the image on the left */
+    }
+    .section2 .info .person {
+        width: 350px;
+        /* Adjust the width for tablet and laptop views */
+    }
+}
+
+
+/* Responsive adjustments for screens below 768px (mobile) */
+
+@media (max-width: 767px) {
+    .section2 .info {
+        flex-direction: column;
+        /* Stack items vertically for mobile */
+    }
+    .section2 .info .person {
+        width: 100%;
+        /* Full width for mobile */
+        margin-right: 0;
+        /* Remove margin */
+    }
+}

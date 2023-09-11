@@ -1,0 +1,124 @@
+.recipe-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-content: space-around;
+}
+
+.recipe-container {
+    width: calc(33.33% - 20px);
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    /* background-color: rgba(255, 255, 255, 0.9); */
+    background-color: rgb(247, 244, 238);
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.recipe-image {
+    width: 100%;
+    max-height: 250px;
+    object-fit: cover;
+}
+
+.recipe-details {
+    padding: 30px;
+}
+
+.recipe-title {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.recipe-button {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.recipe-description,
+.recipe-ingredients,
+.recipe-steps {
+    display: none;
+}
+
+.show-more-button-container {
+    width: 100%;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.show-more-button {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.show-more-button-container {
+    width: 100%;
+    text-align: center;
+    margin-top: 20px;
+    padding-left: 50%;
+}
+
+.search-container {
+    text-align: center;
+    margin-top: 20px;
+}
+
+#search-input {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 200px;
+}
+
+#search-button {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.edit button {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+    float: right;
+    margin-top: -55px;
+    margin-right: 20px;
+}
+
+body main h1 {
+    display: inline-block;
+    margin-left: 50%;
+    margin-top: 10px;
+}
+
+@media (max-width: 768px) {
+    .recipe-container {
+        flex-basis: calc(50% - 20px);
+        /* Two columns on smaller screens */
+    }
+}
+
+@media (max-width: 480px) {
+    .recipe-container {
+        flex-basis: calc(100% - 20px);
+        /* Single column on even smaller screens */
+        margin: 10px 0;
+    }
+}

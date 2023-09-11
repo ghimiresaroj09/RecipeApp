@@ -1,0 +1,86 @@
+/* Base styles for sections and paragraphs */
+
+.section5,
+.section6,
+.section7 {
+    padding: 20px;
+    text-align: left;
+    margin: 20px;
+}
+
+.p1,
+.p2,
+.p3 {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+
+/* Container for the "About" section */
+
+.about {
+    display: flex;
+    /* Use flexbox to create a horizontal layout */
+    align-items: center;
+    /* Center items vertically */
+    justify-content: space-between;
+    /* Space out the items horizontally */
+}
+
+
+/* Style for the picture on the left */
+
+.picture {
+    flex: 1;
+    /* Make the picture take up 50% of the container width */
+    padding: 10px;
+}
+
+.picture img {
+    max-width: 100%;
+    /* Ensure the image does not exceed its container */
+    height: auto;
+    /* Maintain the aspect ratio */
+    max-height: 300px;
+    /* Set a maximum height for the image */
+    border-radius: 10px;
+}
+
+
+/* Style for the text on the right */
+
+.info1 {
+    flex: 2;
+    /* Make the text take up 50% of the container width */
+    padding: 10px;
+}
+
+
+/* Add space between "My Passion" and "My Goals" sections */
+
+.spacer {
+    height: 30px;
+}
+
+
+/* Responsive styles for screens smaller than 768px */
+
+@media (max-width: 768px) {
+    .p1,
+    .p2,
+    .p3 {
+        font-size: 20px;
+    }
+    .section5,
+    .section6,
+    .section7 {
+        margin: 10px;
+        padding: 10px;
+    }
+    .about {
+        flex-direction: column;
+        /* Stack items vertically on smaller screens */
+        align-items: flex-start;
+        /* Align items to the left on smaller screens */
+    }
+}

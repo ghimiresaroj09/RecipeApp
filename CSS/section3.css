@@ -1,0 +1,182 @@
+.section3 {
+    margin-top: 100px;
+    /* Adjust the margin as needed */
+}
+
+.services {
+    height: 80px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 100px;
+    line-height: 40px;
+}
+
+.services .title {
+    text-align: center;
+    font-size: 20px;
+}
+
+.foods {
+    height: 1000px;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: space-around;
+    box-sizing: border-box;
+}
+
+.foods .box1 {
+    width: calc(33.33% - 20px);
+    margin: 10px;
+    height: 300px;
+    background-image: url(../Images/Avocado\ Toast.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border-radius: 20px;
+}
+
+.foods .box2 {
+    width: calc(33.33% - 20px);
+    margin: 10px;
+    height: 300px;
+    background-image: url(../Images/Chocolate\ Mug\ Cake.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border-radius: 20px;
+}
+
+.foods .box3 {
+    width: calc(33.33% - 20px);
+    margin: 10px;
+    height: 300px;
+    background-image: url(../Images/Fluffy\ Pancakes.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border-radius: 20px;
+}
+
+.foods .box4 {
+    width: calc(33.33% - 20px);
+    margin: 10px;
+    height: 300px;
+    background-image: url(../Images/Greek\ Salad.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border-radius: 20px;
+}
+
+.foods .box5 {
+    width: calc(33.33% - 20px);
+    margin: 10px;
+    height: 300px;
+    background-image: url(../Images/Grilled\ Cheese\ Sandwich.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border-radius: 20px;
+}
+
+.foods .box6 {
+    width: calc(33.33% - 20px);
+    margin: 10px;
+    height: 300px;
+    background-image: url(../Images/Mixed\ Fruit\ Smoothie.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border-radius: 20px;
+}
+
+.foods .box7 {
+    width: calc(33.33% - 20px);
+    margin: 10px;
+    height: 300px;
+    background-image: url(../Images/scrambleeggs.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border-radius: 20px;
+}
+
+.foods .box8 {
+    width: calc(33.33% - 20px);
+    margin: 10px;
+    height: 300px;
+    background-image: url(../Images/Spaghetti\ Aglio\ e\ Olio.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border-radius: 20px;
+}
+
+.foods .box9 {
+    width: calc(33.33% - 20px);
+    margin: 10px;
+    height: 300px;
+    background-image: url(../Images/Peanut\ Butter\ Banana\ Smoothie.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border-radius: 20px;
+}
+
+.button2 button {
+    color: #fff;
+    font-size: larger;
+    display: inline-block;
+    margin-left: 50%;
+    height: 45px;
+    width: 125px;
+    background-color: #007BFF;
+    border-radius: 20px;
+}
+
+
+/* Responsive adjustments for screens between 768px and 1024px (tablet and laptop) */
+
+@media (max-width: 1024px) {
+    .foods .box {
+        width: calc(50% - 20px);
+        /* 2 boxes per row for tablet and laptop */
+    }
+}
+
+
+/* Responsive adjustments for screens below 768px (mobile) */
+
+@media (max-width: 767px) {
+    .foods .box {
+        width: calc(50% - 20px);
+        /* Two boxes per row for mobile */
+    }
+    /* Reset the width for the third box to ensure it doesn't take up space */
+    .foods .box:nth-child(3n) {
+        width: 0;
+        margin: 0;
+        padding: 0;
+        display: none;
+    }
+}
+
+
+/* Styles for the "View More" button */
+
+.button2 button {
+    color: #fff;
+    font-size: larger;
+    display: inline-block;
+    margin-left: 50%;
+    transform: translateX(-50%);
+    /* Center-align the button */
+    height: 45px;
+    width: 125px;
+    background-color: #007BFF;
+    border-radius: 20px;
+}

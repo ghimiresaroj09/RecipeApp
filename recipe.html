@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="shortcut icon" type="x-icon" href="Images/logo.png">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recipe Book</title>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Caprasimo&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@300&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="CSS/style.css">
+    <link rel="stylesheet" href="CSS/recipe.css">
+</head>
+<body>
+    <header>
+        <div class="header">
+            <div class="logo">
+            <a href="index.html"><img src="Images/logo.png" alt="Recipe Logo"></a>
+            </div>
+            <div class="nav">
+                <nav>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="recipe.html">Recipe</a></li>
+                        <li><a href="addrecipe.html">Add Recipe</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="contact.html">Contact Us</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+    <main>
+        <h1>Recipes</h1><br><br><br><br>
+        <!-- Search button container -->
+        <div class="search-container">
+            <input type="text" id="search-input" placeholder="Search recipes...">
+            <button id="search-button">Search</button>
+        </div>
+    
+        <div class="recipe-list" id="recipe-list"></div>
+        <div class="show-more-button-container">
+            <button class="show-more-button" id="show-more-button">Show More</button>
+        </div>
+    </main>
+    <footer>
+        &copy;Copyright 2023-All right reserved
+    </footer>
+    <script src="JS/script.js"></script>
+</body>
+</html>

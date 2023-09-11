@@ -1,0 +1,296 @@
+{
+    "receipes": {
+        "egg": {
+            "id": "1",
+            "title": "Scrambled Eggs",
+            "Description": "Enjoy a hearty breakfast with our Scrambled Eggs recipe. Fluffy eggs are delicately whisked, cooked to       perfection in butter, and seasoned with a touch of salt and pepper. It's a simple and satisfying way to start your day.",
+            "image": "Images/scrambledeggs.jpg",
+            "ingredients": ["Eggs", "Butter", "Salt", "Pepper"],
+            "steps": {
+                "step1": "Crack the eggs into a bowl and whisk.",
+                "step2": "Heat butter in a non-stick pan over medium heat.",
+                "step3": "Pour the whisked eggs into the pan, and stir gently.",
+                "step4": "Season with salt and pepper.",
+                "step5": "Cook until the eggs are set but still slightly runny.",
+                "step6": "Remove from heat and let rest for a minute before serving."
+            }
+        },
+
+        "omelette": {
+            "id": "2",
+            "title": "Classic Cheese Omelette",
+            "Description": "Elevate your morning routine with our Classic Cheese Omelette. Whisk together eggs, a pinch of salt, and your choice of fillings. Cooked with butter to golden perfection, this omelette encases gooey melted cheese for a comforting and flavorful breakfast.",
+            "image": "Images/omelette.jpg",
+            "ingredients": ["Eggs", "Cheese", "Salt", "Butter", "Optional fillings"],
+            "steps": {
+                "step1": "Whisk eggs, salt, and optional fillings in a bowl.",
+                "step2": "Heat butter in a pan over medium heat.",
+                "step3": "Pour egg mixture into the pan and cook until set.",
+                "step4": "Add grated cheese to one half of the omelette.",
+                "step5": "Fold the omelette in half and cook briefly to melt the cheese.",
+                "step6": "Slide onto a plate and serve."
+            }
+        },
+        "pancakes": {
+            "id": "3",
+            "title": "Fluffy Pancakes",
+            "Description": "Indulge in a stack of Fluffy Pancakes that are sure to bring a smile to your face. These pancakes are a delightful blend of flour, sugar, and baking powder, mixed with milk and eggs for a light and fluffy texture. Top them with your favorite toppings for a delightful treat.",
+            "image": "Images/Fluffy Pancakes.jpg",
+            "ingredients": ["Flour", "Sugar", "Baking powder", "Bilk", "Egg", "Butter"],
+            "steps": {
+                "step1": "In a bowl, whisk flour, sugar, and baking powder.",
+                "step2": "In a separate bowl, whisk milk, egg, and melted butter.",
+                "step3": "Combine wet and dry ingredients and mix until just combined.",
+                "step4": "Heat a non-stick pan and ladle pancake batter onto it.",
+                "step5": "Cook until bubbles form, then flip and cook until golden brown.",
+                "step6": "Serve with your favorite toppings."
+            }
+        },
+        "grilled_cheese": {
+            "id": "4",
+            "title": "Grilled Cheese Sandwich",
+            "Description": "Craving comfort food? Our Grilled Cheese Sandwich is the answer. Slices of bread embrace a gooey interior of melted cheese, while a touch of butter crisps up the outside to golden perfection. It's a timeless classic that never disappoints.",
+            "image": "Images/Grilled Cheese Sandwich.jpg",
+            "ingredients": ["Bread slices", "Cheese slices", "Butter"],
+            "steps": {
+                "step1": "Place cheese between two bread slices.",
+                "step2": "Spread butter on the outsides of the sandwich.",
+                "step3": "Heat a pan over medium heat and cook the sandwich until golden brown and cheese melts.",
+                "step4": "Flip the sandwich and cook the other side.",
+                "step5": "Slice and serve."
+            }
+        },
+        "fruit_smoothie": {
+            "id": "5",
+            "title": "Mixed Fruit Smoothie",
+            "Description": "Energize your day with our Mixed Fruit Smoothie, a blend of ripe bananas, juicy berries, creamy yogurt, and a drizzle of honey. It's a vibrant and refreshing way to enjoy a burst of fruity goodness in every sip.",
+            "image": "Images/Mixed Fruit Smoothie.jpg",
+            "ingredients": ["Banana", "Berries", "Yogurt", "Milk", "Honey"],
+            "steps": {
+                "step1": "Combine fruits, yogurt, milk, and honey in a blender.",
+                "step2": "Blend until smooth and creamy.",
+                "step3": "Pour into glasses and enjoy."
+            }
+        },
+        "spaghetti_aglio_e_olio": {
+            "id": "6",
+            "title": "Spaghetti Aglio e Olio",
+            "Description": "Transport your taste buds to Italy with our Spaghetti Aglio e Olio. Al dente spaghetti is sautéed with fragrant garlic, a hint of red pepper flakes, and a drizzle of olive oil. Topped with fresh parsley and grated parmesan, it's a simple yet exquisite pasta dish.",
+            "image": "Images/Spaghetti Aglio e Olio.jpg",
+            "ingredients": ["Spaghetti", "Garlic", "Olive oil", "Red pepper flakes", "Parsley", "Parmesan cheese"],
+            "steps": {
+                "step1": "Cook spaghetti in salted boiling water until al dente.",
+                "step2": "Heat olive oil in a pan and sauté minced garlic and red pepper flakes.",
+                "step3": "Add cooked pasta to the pan and toss to coat with oil.",
+                "step4": "Season with salt and pepper, and garnish with parsley.",
+                "step5": "Serve with grated parmesan cheese."
+            }
+        },
+        "peanut_butter_smoothie": {
+            "id": "7",
+            "title": "Peanut Butter Banana Smoothie",
+            "Description": "For a protein-packed treat, try our Peanut Butter Banana Smoothie. Creamy peanut butter and ripe bananas blend together with a touch of honey and milk for a smooth and satisfying drink that's perfect for a quick snack or on-the-go meal.",
+            "image": "Images/Peanut Butter Banana Smoothie.jpg",
+            "ingredients": ["Banana", "Beanut butter", "Milk", "Honey"],
+            "steps": {
+                "step1": "Blend banana, peanut butter, milk, and honey until smooth.",
+                "step2": "Pour into a glass and enjoy."
+            }
+        },
+        "greek_salad": {
+            "id": "8",
+            "title": "Greek Salad",
+            "Description": "Immerse yourself in the flavors of Greece with our Greek Salad. Crisp cucumbers, ripe tomatoes, red onions, and briny olives come together with crumbled feta cheese. Drizzled with olive oil and sprinkled with oregano, it's a delightful medley of Mediterranean goodness.",
+            "image": "Images/Greek Salad.jpg",
+            "ingredients": ["Cucumber", "Tomato", "Red onion", "Feta cheese", "Olives", "Olive oil", "Oregano"],
+            "steps": {
+                "step1": "Chop cucumber, tomato, and red onion.",
+                "step2": "Toss vegetables with feta cheese and olives.",
+                "step3": "Drizzle olive oil over the salad and sprinkle with oregano.",
+                "step4": "Mix well and serve."
+            }
+        },
+        "chocolate_mug_cake": {
+            "id": "9",
+            "title": "Chocolate Mug Cake",
+            "Description": "Satisfy your sweet cravings in minutes with our Chocolate Mug Cake. A mixture of flour, sugar, cocoa powder, and baking powder is combined with milk, oil, and vanilla extract, then microwaved to create a warm, moist, and chocolaty treat.",
+            "image": "Images/Chocolate Mug Cake.jpg",
+            "ingredients": ["Flour", "Sugar", "Cocoa powder", "Baking powder", "Milk", "Oil", "Vanilla extract"],
+            "steps": {
+                "step1": "In a mug, mix flour, sugar, cocoa powder, and baking powder.",
+                "step2": "Add milk, oil, and vanilla extract to the mug and stir until smooth.",
+                "step3": "Microwave for 1-2 minutes until the cake rises and is set.",
+                "step4": "Let cool slightly before eating."
+            }
+        },
+        "avocado_toast": {
+            "id": "10",
+            "title": "Avocado Toast",
+            "Description": "Elevate your breakfast with our Avocado Toast, a harmonious blend of creamy avocado mashed with a touch of lemon juice and salt. Spread over toasted bread and garnished with red pepper flakes, it's a flavorful and nutritious way to start your day.",
+            "image": "Images/Avocado Toast.jpg",
+            "ingredients": ["Bread slices", "Avocado", "Lemon juice", "Salt", "Red pepper flakes"],
+            "steps": {
+                "step1": "Toast bread slices until golden brown.",
+                "step2": "Mash avocado and mix with lemon juice and salt.",
+                "step3": "Spread the avocado mixture onto the toasted bread.",
+                "step4": "Sprinkle with red pepper flakes.",
+                "step5": "Serve and enjoy."
+            }
+        },
+        "momos": {
+            "id": "11",
+            "title": "Momos",
+            "Description": "Momos are a popular Nepali dumpling dish filled with a flavorful mixture of ground meat or vegetables, and spices, wrapped in a thin dough. They are usually served with a spicy dipping sauce.",
+            "image": "Images/momo.jpg",
+            "ingredients": ["Ground meat or Vegetables", "Garlic", "Ginger", "Onions", "Soy sauce", "Flour", "Salt", "Spices"],
+            "steps": {
+                "step1": "Prepare the filling by mixing ground meat or vegetables with minced garlic, ginger, and chopped onions.",
+                "step2": "Add soy sauce and spices to the filling mixture and mix well.",
+                "step3": "Make small dough wrappers from flour and salt.",
+                "step4": "Place a spoonful of filling in each wrapper and fold them into a crescent shape.",
+                "step5": "Steam the momos until the dough is cooked and the filling is hot.",
+                "step6": "Serve with a spicy dipping sauce."
+            }
+        },
+        "dal_bhat": {
+            "id": "12",
+            "title": "Dal Bhat",
+            "Description": "Dal Bhat is a traditional Nepali meal consisting of steamed rice (Bhat) and a lentil soup (Dal). It is often accompanied by various side dishes like vegetables, pickles, and yogurt.",
+            "image": "Images/dalbhat.jpg",
+            "ingredients": ["Rice", "Lentils", "Turmeric", "Cumin", "Garlic", "Onions", "Various vegetables"],
+            "steps": {
+                "step1": "Cook rice until it's fluffy and ready to serve.",
+                "step2": "Boil lentils with turmeric until they are soft and mushy.",
+                "step3": "In a separate pan, heat oil and add cumin seeds, garlic, and onions.",
+                "step4": "Add the cooked lentils to the pan, season with salt and spices, and simmer.",
+                "step5": "Serve the Dal over steamed rice with various side dishes."
+            }
+        },
+        "sel_roti": {
+            "id": "13",
+            "title": "Sel Roti",
+            "Description": "Sel Roti is a traditional Nepali rice-based doughnut. It has a crispy exterior and a soft interior and is often enjoyed with yogurt or tea.",
+            "image": "Images/selroti.jpg",
+            "ingredients": ["Rice flour", "Sugar", "Yogurt", "Oil for frying"],
+            "steps": {
+                "step1": "Prepare a thick batter by mixing rice flour, sugar, and yogurt.",
+                "step2": "Heat oil in a deep frying pan.",
+                "step3": "Pour the batter into the hot oil in a circular motion to form a ring shape.",
+                "step4": "Fry until both sides are golden brown and crispy.",
+                "step5": "Serve hot with yogurt or tea."
+            }
+        },
+        "gundruk": {
+            "id": "14",
+            "title": "Gundruk",
+            "Description": "Gundruk is a traditional Nepali fermented leafy green vegetable. It has a tangy flavor and is often used in various Nepali dishes.",
+            "image": "Images/gundruk.jpg",
+            "ingredients": ["Leafy greens (typically mustard greens)", "Salt", "Water"],
+            "steps": {
+                "step1": "Clean and chop the leafy greens into small pieces.",
+                "step2": "Mix the greens with salt and water.",
+                "step3": "Press the mixture tightly in a container and leave it to ferment for a few days.",
+                "step4": "Once it's fermented, sun-dry the gundruk for preservation."
+            }
+        },
+        "kwati": {
+            "id": "15",
+            "title": "Kwati",
+            "Description": "Kwati is a traditional Nepali mixed bean soup prepared with a variety of sprouted beans. It's often enjoyed during festivals and gatherings.",
+            "image": "Images/kwati.jpg",
+            "ingredients": ["Mixed sprouted beans (Black gram, Green gram, Soybean, etc.)", "Spices", "Ginger", "Garlic"],
+            "steps": {
+                "step1": "Boil the mixed sprouted beans until they are soft.",
+                "step2": "In a separate pan, heat oil and add spices, ginger, and garlic.",
+                "step3": "Add the boiled beans and water to create a thick soup.",
+                "step4": "Simmer and season with spices.",
+                "step5": "Serve hot as a nutritious soup."
+            }
+        },
+        "kheer": {
+            "id": "16",
+            "title": "Kheer",
+            "Description": "Kheer is a beloved Nepali rice pudding dessert. It's creamy, sweet, and flavored with cardamom and garnished with nuts.",
+            "image": "Images/kheer.jpg",
+            "ingredients": ["Rice", "Milk", "Sugar", "Cardamom", "Nuts (e.g., Almonds, Cashews)"],
+            "steps": {
+                "step1": "Cook rice in milk until it becomes soft and creamy.",
+                "step2": "Add sugar and cardamom for sweetness and flavor.",
+                "step3": "Garnish with chopped nuts.",
+                "step4": "Serve chilled as a delightful dessert."
+            }
+        },
+        "dhido": {
+            "id": "17",
+            "title": "Dhido",
+            "Description": "Dhido is a traditional Nepali food made from buckwheat or millet flour. It has a dense and dough-like consistency and is often served with various types of curries.",
+            "image": "Images/dhido.jpg",
+            "ingredients": ["Buckwheat or Millet flour", "Water"],
+            "steps": {
+                "step1": "Boil water in a pan.",
+                "step2": "Gradually add buckwheat or millet flour to the boiling water while stirring continuously.",
+                "step3": "Keep stirring until the mixture thickens and forms a dense dough-like consistency.",
+                "step4": "Serve hot with a variety of curries or vegetables."
+            }
+        },
+        "yomari": {
+            "id": "18",
+            "title": "Yomari",
+            "Description": "Yomari is a traditional Nepali sweet dumpling filled with jaggery and sesame seeds. It is a special dish prepared during the Yomari Punhi festival.",
+            "image": "Images/yomari.jpg",
+            "ingredients": ["Rice flour", "Jaggery", "Sesame seeds", "Ghee"],
+            "steps": {
+                "step1": "Prepare a dough from rice flour and water.",
+                "step2": "Divide the dough into small balls and flatten them into discs.",
+                "step3": "Fill each disc with a mixture of jaggery and sesame seeds.",
+                "step4": "Fold the discs to seal the filling inside, giving them a crescent shape.",
+                "step5": "Steam the yomari until they are cooked and translucent.",
+                "step6": "Serve as a sweet treat."
+            }
+        },
+        "chatpate": {
+            "id": "19",
+            "title": "Chatpate",
+            "Description": "Chatpate is a popular Nepali street food snack known for its spicy and tangy flavors. It's a delightful mix of crispy ingredients, such as puffed rice, peanuts, vegetables, and spices.",
+            "image": "Images/chatpate.jpg",
+            "ingredients": ["Puffed rice", "Peanuts", "Vegetables (e.g., Onions, Tomatoes, Cucumbers)", "Green chilies", "Lemon juice", "Spices", "Tamarind chutney"],
+            "steps": {
+                "step1": "In a large bowl, combine puffed rice, roasted peanuts, chopped vegetables, and green chilies.",
+                "step2": "Add lemon juice and tamarind chutney for tangy flavor.",
+                "step3": "Sprinkle spices and mix everything thoroughly.",
+                "step4": "Serve immediately as a spicy and crunchy snack."
+            }
+        },
+        "pani_puri": {
+            "id": "20",
+            "title": "Pani Puri",
+            "Description": "Pani Puri, also known as Golgappa or Puchka, is a beloved Nepali street food snack. It consists of hollow, crispy puris filled with a spicy and tangy mixture of flavored water, tamarind chutney, potatoes, and chickpeas.",
+            "image": "Images/panipuri.jpg",
+            "ingredients": ["Puris", "Potatoes", "Boiled chickpeas", "Spices", "Tamarind chutney", "Mint-coriander water", "Sev", "Onions (optional)"],
+            "steps": {
+                "step1": "Gently make a hole in each puri to create a hollow space inside.",
+                "step2": "Stuff the puris with a mixture of boiled and chopped potatoes and boiled chickpeas.",
+                "step3": "Add a pinch of spices to each puri for flavor.",
+                "step4": "Pour mint-coriander water into each puri to fill it up.",
+                "step5": "Add tamarind chutney to taste, adjusting the sweetness and tanginess as per your preference.",
+                "step6": "Optionally, top with finely chopped onions and sev for extra crunch and flavor.",
+                "step7": "Serve immediately as a delightful and refreshing street food snack."
+            }
+        },
+        "jalebi": {
+            "id": "21",
+            "title": "Jalebi",
+            "Description": "Jalebi is a popular Nepali sweet treat known for its coiled or pretzel-like shape. It's made from a fermented batter of all-purpose flour, deep-fried, and soaked in sugar syrup, resulting in a sweet and syrupy dessert.",
+            "image": "Images/jalebi.jpg",
+            "ingredients": ["All-purpose flour", "Yogurt", "Sugar", "Water", "Cardamom powder", "Saffron strands", "Ghee or Oil for frying"],
+            "steps": {
+                "step1": "Prepare the batter by mixing all-purpose flour and yogurt to form a smooth, thick consistency. Allow it to ferment for a few hours or overnight.",
+                "step2": "In a saucepan, prepare a sugar syrup by dissolving sugar in water. Add cardamom powder and saffron strands for flavor and color. Simmer until it reaches a sticky consistency.",
+                "step3": "Heat ghee or oil in a deep frying pan. Pour the fermented batter into a squeeze bottle or a cloth with a small hole at the bottom.",
+                "step4": "Squeeze the batter into the hot ghee or oil in a coiled or pretzel-like shape. Fry until they become golden and crisp.",
+                "step5": "Remove the fried jalebis and immediately dip them into the prepared sugar syrup. Allow them to soak for a few seconds, ensuring they absorb the syrup.",
+                "step6": "Serve the jalebis hot or at room temperature as a delicious and sweet dessert."
+            }
+        }
+    }
+}

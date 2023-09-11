@@ -1,0 +1,56 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+h1,
+p {
+    text-align: center;
+    margin: 20px 0;
+}
+
+#recipeForm {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    background-color: #f9f9f9;
+}
+
+label {
+    font-weight: bold;
+}
+
+input[type="text"],
+textarea,
+input[type="file"] {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+textarea {
+    resize: vertical;
+}
+
+#imagePreview {
+    max-width: 200px;
+    display: none;
+    margin: 10px 0;
+}
+
+input[type="button"] {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+input[type="button"]:hover {
+    background-color: #555;
+}

@@ -1,0 +1,77 @@
+.container {
+    height: 650px;
+    width: 100%;
+    background-image: url(../Images/img1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border-radius: 0% 0% 20% 20%;
+    display: flex;
+    flex-direction: column;
+    /* Change to column layout */
+    justify-content: center;
+    align-items: center;
+}
+
+.quote {
+    text-shadow: rgb(7, 7, 7) 2px 0 10px;
+    margin-bottom: 20px;
+    /* Add space below the quote */
+}
+
+.quote p {
+    color: yellow;
+    font-size: 50px;
+    font-weight: bold;
+    font-family: 'Caprasimo', cursive;
+}
+
+.button button {
+    color: #fff;
+    font-size: larger;
+    height: 45px;
+    width: 125px;
+    background-color: #007BFF;
+    border-radius: 20px;
+}
+
+
+/* Responsive adjustments for screens between 768px and 1024px */
+
+@media (max-width: 1024px) {
+    .container {
+        height: 500px;
+        /* Adjust the height as needed */
+    }
+    .quote p {
+        font-size: 40px;
+        /* Reduce the font size */
+    }
+    .button button {
+        font-size: medium;
+        /* Adjust the font size */
+    }
+}
+
+
+/* Responsive adjustments for screens between 320px and 767px */
+
+@media (max-width: 767px) {
+    .container {
+        height: 300px;
+        /* Adjust the height as needed */
+    }
+    .quote p {
+        font-size: 30px;
+        /* Reduce the font size */
+    }
+    .button {
+        text-align: center;
+        margin-top: 20px;
+        /* Add space above the button */
+    }
+    .button button {
+        font-size: small;
+        /* Adjust the font size */
+    }
+}
